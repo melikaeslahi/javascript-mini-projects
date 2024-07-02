@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style/music.css">
+    <title>Music Player</title>
+</head>
+<body>
+ 
+<section class="container" id="background">
+    <!-- TOOLS -->
+   <section class="tools">
+   <span><i class="fa fa-arrow-left"></i></span>
+   <span><h1>Now Playing</h1></span>
+   <span><i class="fa fa-ellipsis-h"></i></span>
+   </section>
+
+   <section class="details">
+       <!-- ABOUT MUSIC -->
+       <section class="about">
+          <section class="image">
+            <img src="./images/download (1).jpeg" id="cover" alt="music-cover">
+          </section>
+          <section class="name">
+            <h1 id="title">Homayoun Shajarian</h1>
+            <h6 id="artist">gisoparishan</h6>
+          </section>
+       </section>
+       <!-- TIME LINE -->
+       <section class="time-line progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        
+        <section class="time">
+            <span id="current-time"></span>
+            <span id="duration"></span>
+            <audio src=""></audio>
+        </section>
+       </section>
+       <!-- MUSIC CONTROLS -->
+        <section class="controls">
+            <i class="fas fa-sync sync" ></i>
+            <i class="fas fa-backward backward"  id="prev"></i>
+            <i class="fa fa-play play" id="play"></i>
+            <i class="fas fa-forward forward" id="next" ></i>
+            <i class="	fas fa-random random"></i> 
+        </section>
+   </section>
+</section>
+ 
+
+<script src="./js/music.js"></script>
+</body>
+</html>
