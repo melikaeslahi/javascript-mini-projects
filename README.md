@@ -28,6 +28,6 @@ Responsive layout for small screens
 Deploy each project separately
 
 ## 📄 License
-This repository is licensed under the MIT License.
+This repository is licensed under the [MIT License](./LICENSE.txt) .
 
 
